@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>CYBTM | Can you beat the Machine ?</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="http://pamman.altervista.org/faviconCYBTM.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p>
+      <p style="margin-top: 20%;float:right">
+        <a  target="_blank" href="https://itunes.apple.com/us/app/cybtm/id1168198900"><img height="70%" width="70%" src="http://pamman.altervista.org/img/available-on-the-app-store.png"></a>
+      </p>
+      <p style="clear:both;float:right" >
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.thundershotgames.cybtm"><img height="70%" width="70%" src="http://pamman.altervista.org/img/android_app_on_play_logo_large.png"></a>
+      </p>
+    </p>
+    <p class="header"><span>Can you beat the Machine ? | </span>CYBTM</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="640px" width="360px"></canvas>
+    </div>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/CYBTM-WEBGL.data",
+    codeUrl: "Release/CYBTM-WEBGL.js",
+    memUrl: "Release/CYBTM-WEBGL.mem",
+
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+
+  </body>
+</html>
